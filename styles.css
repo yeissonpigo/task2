@@ -1,0 +1,68 @@
+.container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 601px;
+    width: 606px;
+    background-color:aquamarine;
+    margin: auto;
+}
+
+.piece {
+    display: block;
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+.piece img {
+    position: absolute;   
+    width: 200px;
+    height: 200px;
+}
+
+[class='1'] {
+    left: 1px;
+    top: 1px;
+}
+
+[class='2'] {
+    left: 203px;
+    top: 1px;
+}
+
+[class='3'] {
+    left: 405px;
+    top: 1px;
+}
+
+[class='4'] {
+    left: 1px;
+    top: 203px;
+}
+
+[class='5'] {
+    left: 203px;
+    top: 203px;
+}
+
+[class='6'] {
+    left: 405px;
+    top: 203px;
+}
+
+[class='7'] {
+    left: 1px;
+    top: 405px;
+}
+
+[class='8'] {
+    left: 203px;
+    top: 405px;
+}
+
+[class='9'] {
+    left: 405px;
+    top: 405px;
+}
